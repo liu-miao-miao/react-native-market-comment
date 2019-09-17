@@ -16,9 +16,3 @@ export default function openAppStoreToComment (appId = 1210643082) {
     RNMarketCommentModule.show();
   }
 }
-
-export default function onKeyDown (isLister = false) {
-  if (Platform.OS === 'android') {
-    RNMarketCommentModule.onKeyDown(isLister);
-  }
-}
